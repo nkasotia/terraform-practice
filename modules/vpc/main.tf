@@ -1,2 +1,7 @@
-resource "aws_+vpc" "main"
-cidr_block
+resource "aws_vpc" "main" {
+cidr_block = var.vpc_cidr
+}
+
+tags {
+name = var.vpc_name
+}
