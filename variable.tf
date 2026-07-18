@@ -25,3 +25,8 @@ variable "key_name" {
 variable "aws_region" {
   type = string
 }
+
+
+variable "gcp_region" {}
+
+variable "gcp_project" {}
