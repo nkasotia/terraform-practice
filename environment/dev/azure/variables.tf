@@ -11,5 +11,8 @@ variable "location" {
 variable "tags" {
   description = "Common Tags"
   type        = map(string)
-  default     = {}
+  default = {
+    Environment = "Development"
+    Owner       = "Nishant"
+  }
 }
